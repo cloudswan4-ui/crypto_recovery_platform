@@ -1,0 +1,43 @@
+{
+  "build_command": "pnpm run build",
+  "capabilities": [
+    "server",
+    "db",
+    "user"
+  ],
+  "dev_command": "pnpm run dev",
+  "env_vars": {
+    "DATABASE_URL": "mysql://3JvaYMB2rY5WCTf.712ebc8f327f:GQg0l5q5ZeGzLn2N9m0T@gateway05.us-east-1.prod.aws.tidbcloud.com:4000/Q5FUzMhhfqdHMBny4ew9SY?ssl={\"rejectUnauthorized\":true}"
+  },
+  "experiments": [
+    "no_db_push"
+  ],
+  "git_remote": {
+    "repo_url": "s3://vida-prod-gitrepo/webdev-git/310519663538712624/Q5FUzMhhfqdHMBny4ew9SY",
+    "access_key_id": "ASIAZV3A2ECZPJXRRECF",
+    "secret_access_key": "9gTxxE64WvoOo68tejv9HL4zke+kDrjD2eiYqgUH",
+    "session_token": "IQoJb3JpZ2luX2VjELj//////////wEaCXVzLWVhc3QtMSJGMEQCIHQ5TlCdgR6yzXGu7uvsntLD4VR+1tpCiVfUlyg1Clk3AiAtkFDlSOgR/QpZpa0hsMysNqH75vWtvIOiCbxIypVVnyr/AwiA//////////8BEAQaDDY2NTM4NjA5ODg2NiIMDcGW7DFZgVyjst/MKtMDjYVWWesVn30KuFwyM6JOG4iGeqq6u6Wei0OXK6gmHRS0xSZdurRhOw+A3J2J6h1KJ8954K8ewn+w8zRaz/QvpF2my84WXoMDVSIo3ttE12359w+5eXl+m8S7msZDOBTowRpguLcn9BrjHsINplHB9/r5D3uWxlr8hQBHBL6D9Y7E7c8ReqXh7MXQlB9S3N9DiPQuvsEff1ZYbd2GS8B9KDTOPiEJqec1FR+3Mg8U3LRnBIlospo0rMLoaedwYiX46MvOoxYbdA1cANL9CtQbQkMAAwHloARog7olszVUoFACoZ6vCi9yss2mOM7n1rC5h6Zhx4ugKhm5P9UJcmM1lnh+oEeOi8Fhx2fbRchVrBSp3gMl9LGQxhpQoqThBKJFuLbYtCTxx1TFSlXytgg4pMK262rJl0RDo8kexaJpvOnUiiuwlhv76t/89TtAwsRtOD7hss8qe5UdPn0CCuVmm33G+QSkbfd1inl5YSU3Gg2A0m5qfHs3goC7tfODPlKBHyzTEX/2BqCnROuexJoqTC3UPlVt1OgnUS7Cc27VzS3bb8W9jz/QI8L81a8oCXoveQcCHyePEAzWprx5U3ouiEtBkWjgqE7EsuYb7z/R4kyJFDIwitWe0AY6ngG5OPZpNOJfL1xHLUw4rdUGjswu5S+56WrtXEpfQ1QdUUBa7s9/sek4DbqRmutRFdx2o8j54tAE4rWe1BlCsZOc6lihhlEUNi4iUpeRnFPEQV8fgyoN+IVfnosuR4oHVU0/KY0Klzu6gCFlotZNf5cG9Wc46VcQb2ODlPDut9K2ZTxrRcXsvvEeW2EVHaaRl1dbkTBggT293p3OhU8L8w==",
+    "expiration": "2026-05-16T11:21:46.000Z"
+  },
+  "name": "crypto_recovery_platform",
+  "path": "/home/ubuntu/crypto_recovery_platform",
+  "port": 3000,
+  "secrets": {
+    "BUILT_IN_FORGE_API_KEY": "2VwGyXFnUMqTeAAVif5qQ3",
+    "BUILT_IN_FORGE_API_URL": "https://forge.manus.ai",
+    "JWT_SECRET": "hVurHKGSU8CxpsUX7nwxef",
+    "OAUTH_SERVER_URL": "https://api.manus.im",
+    "OWNER_NAME": "Swan Cloud",
+    "OWNER_OPEN_ID": "MmJmTrrJyZcUEz9zVfFju6",
+    "VITE_ANALYTICS_ENDPOINT": "https://manus-analytics.com",
+    "VITE_ANALYTICS_WEBSITE_ID": "7dd220b4-cfa4-4a9b-8caf-c8675e62cb34",
+    "VITE_APP_ID": "Q5FUzMhhfqdHMBny4ew9SY",
+    "VITE_APP_LOGO": "",
+    "VITE_APP_TITLE": "Crypto Recovery \u0026 Asset Restoration Service",
+    "VITE_FRONTEND_FORGE_API_KEY": "MnCrt2fr6rWnNx7LkqZY5x",
+    "VITE_FRONTEND_FORGE_API_URL": "https://forge.manus.ai",
+    "VITE_OAUTH_PORTAL_URL": "https://manus.im"
+  },
+  "template_id": "web-db-user",
+  "test_command": "pnpm test"
+}
